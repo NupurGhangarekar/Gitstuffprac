@@ -4,14 +4,13 @@ cd mdm-prac
 git init
 git config --global user.name " nupur"
 git config --global user.email "nupurg@gmail.com"
-echo" " >project.txt
 
-git add project.txt  
-git commit -m "Add main.java with hello world class "
-echo " " >>project.txt
-git add project.txt
-git commit -m " "
-git log 2nd commit cha
-git checkout  --project.txt
-git add project
-git push origin main 
+git clone repolink
+cd repo name
+echo " "> Main.java
+add
+commit
+git push origin main
+
+
+
