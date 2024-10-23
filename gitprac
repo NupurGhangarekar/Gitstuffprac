@@ -1,0 +1,34 @@
+#create new dir
+mkdir my-versionized-project
+cd my-versionized-project
+
+initialize a git repo
+git init
+git config --global user.name "nupur"
+git config --global user.email "nupurg@gmail.com"
+git config --global --list
+
+#create a new file 
+echo " This is the first version of my project" >project.txt
+
+#add file to staging area
+git add project.txt
+
+#commit file to repository
+git commit -m "Initial project.txt"
+
+#append 
+echo "adding more content to the project" >>project.txt
+
+#add the file to the staging area 
+git add project.txt
+
+#commit
+git commit -m "Added more content to project.txt"
+
+git log
+
+
+git add project.txt
+
+git commit -m " Reversed project.txt to initial version"
